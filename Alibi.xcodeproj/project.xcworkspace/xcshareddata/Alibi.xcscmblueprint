@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4319EF9C519AA63B37A149C9D3B68D0294BBCF45",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2C73FC5CBADD73F566624402A91ED5EE3806076A" : 0,
+    "4319EF9C519AA63B37A149C9D3B68D0294BBCF45" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "366BA8DB-AD85-44FA-A6C5-8BF8F03E5DA1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2C73FC5CBADD73F566624402A91ED5EE3806076A" : "Alibi",
+    "4319EF9C519AA63B37A149C9D3B68D0294BBCF45" : "Alibi-iOS-master-5ec18a223a69a5b3f24071809bd06f567bc69505\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Alibi",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Alibi.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.com:matwilland\/Alibi-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2C73FC5CBADD73F566624402A91ED5EE3806076A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iDeveloper777\/Alibi-iOS-master-5ec18a223a69a5b3f24071809bd06f567bc69505.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4319EF9C519AA63B37A149C9D3B68D0294BBCF45"
+    }
+  ]
+}

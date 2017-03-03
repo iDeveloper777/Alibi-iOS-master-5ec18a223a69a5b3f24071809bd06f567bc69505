@@ -535,6 +535,7 @@
 		795106D91E5F3BCF00DAAAD9 /* AppIcon87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon87x87.png; sourceTree = "<group>"; };
 		795106DB1E5F3C0300DAAAD9 /* AppIcon80x80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon80x80@2x.png"; sourceTree = "<group>"; };
 		795106DC1E5F3C0300DAAAD9 /* AppIcon180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon180x180.png; sourceTree = "<group>"; };
+		7957A68F1E69DF3100332F58 /* Alibi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Alibi.entitlements; sourceTree = "<group>"; };
 		7997BC7B1E40B7440050E976 /* groups@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "groups@2x.png"; sourceTree = "<group>"; };
 		7997BC7C1E40B7440050E976 /* groups@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "groups@3x.png"; sourceTree = "<group>"; };
 		7997BC7D1E40B7440050E976 /* profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile@2x.png"; sourceTree = "<group>"; };
@@ -845,6 +846,7 @@
 		2C6D26741896BACA00C459CB /* Alibi */ = {
 			isa = PBXGroup;
 			children = (
+				7957A68F1E69DF3100332F58 /* Alibi.entitlements */,
 				2C6D26751896BACA00C459CB /* 3rdParty */,
 				2C6D26DC1896BACA00C459CB /* AppDelegate */,
 				2C6D26DF1896BACA00C459CB /* InfoPlist.strings */,
@@ -2568,6 +2570,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Alibi/Alibi.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: ELIEZER KAMIONSKI (UU2EUTXVH7)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ELIEZER KAMIONSKI (UU2EUTXVH7)";
 				DEVELOPMENT_TEAM = "";
@@ -2595,6 +2598,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Alibi/Alibi.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: ELIEZER KAMIONSKI (UU2EUTXVH7)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ELIEZER KAMIONSKI (UU2EUTXVH7)";
 				DEVELOPMENT_TEAM = "";

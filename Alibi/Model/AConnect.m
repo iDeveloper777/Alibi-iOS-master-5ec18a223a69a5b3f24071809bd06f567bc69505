@@ -8,7 +8,8 @@
 
 #import "AConnect.h"
 
-#define kBaseLink @"https://api.alibichat.com/alibi/"
+//#define kBaseLink @"https://api.alibichat.com/alibi/"
+#define kBaseLink @"http://162.251.164.174/alibi/"
 //#define kAPIKey @"!#wli!sdWQDScxzczFžŽYewQsq_?wdX09612627364[3072∑34260-#"
 #define kConnectionTimeout 30
 #define kCompressionQuality 1.0f

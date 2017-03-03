@@ -29,7 +29,7 @@
     self.title = @"INSTAGRAM LOGIN";
     
     client_id = @"a134b49936e74b3787fa28deb0bc7ea3";
-    secret = @"c969862783ba48bf915bfc5535c2e0de";
+    secret = @"2c1b066bccfa4387ad1e9b77438e622f";
     callback = @"http://api.alibichat.com/alibi/api/index.php"; // sample call back URL
     
     
@@ -43,6 +43,10 @@
 #pragma mark UIWebViewDelegate
 
 - (BOOL)webView:(UIWebView*)webView shouldStartLoadWithRequest:(NSURLRequest*)request navigationType:(UIWebViewNavigationType)navigationType {
+    
+    NSString *url = request.URL.absoluteString;
+    NSString *urlString = [[request URL] host];
+    
     //    [indicator startAnimating];
     if ([[[request URL] host] isEqualToString:@"api.alibichat.com"]) {
         
