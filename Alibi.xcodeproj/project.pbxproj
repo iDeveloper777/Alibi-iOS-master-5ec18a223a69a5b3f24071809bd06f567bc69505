@@ -121,6 +121,9 @@
 		7997BC881E40BAD40050E976 /* tut_iphone5_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7997BC851E40BAD40050E976 /* tut_iphone5_01.png */; };
 		7997BC891E40BAD40050E976 /* tut_iphone5_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 7997BC861E40BAD40050E976 /* tut_iphone5_02.png */; };
 		7997BC8A1E40BAD40050E976 /* tut_iphone5_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 7997BC871E40BAD40050E976 /* tut_iphone5_03.png */; };
+		79A692731E71F5BD002BD031 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79A692701E71F5BD002BD031 /* Default-568h@2x.png */; };
+		79A692741E71F5BD002BD031 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 79A692711E71F5BD002BD031 /* Default.png */; };
+		79A692751E71F5BD002BD031 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79A692721E71F5BD002BD031 /* Default@2x.png */; };
 		79E085F71E40B126006FE5A9 /* NotificationBackgroundError.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E085DC1E40B126006FE5A9 /* NotificationBackgroundError.png */; };
 		79E085F81E40B126006FE5A9 /* NotificationBackgroundError@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E085DD1E40B126006FE5A9 /* NotificationBackgroundError@2x.png */; };
 		79E085F91E40B126006FE5A9 /* NotificationBackgroundErrorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E085DE1E40B126006FE5A9 /* NotificationBackgroundErrorIcon.png */; };
@@ -198,9 +201,6 @@
 		A344D6031B3DBAA600E05593 /* AGuessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A344D6021B3DBAA600E05593 /* AGuessViewController.m */; };
 		A344D6071B3DBE8D00E05593 /* AGuessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A344D6061B3DBE8D00E05593 /* AGuessCell.m */; };
 		A344D60A1B3DBEC000E05593 /* AGuess.m in Sources */ = {isa = PBXBuildFile; fileRef = A344D6091B3DBEC000E05593 /* AGuess.m */; };
-		A35F9CE01B3AA9DB00CFB62B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A35F9CDD1B3AA9DB00CFB62B /* Default-568h@2x.png */; };
-		A35F9CE11B3AA9DB00CFB62B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A35F9CDE1B3AA9DB00CFB62B /* Default.png */; };
-		A35F9CE21B3AA9DB00CFB62B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A35F9CDF1B3AA9DB00CFB62B /* Default@2x.png */; };
 		A35F9D001B3AA9E800CFB62B /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = A35F9CF71B3AA9E800CFB62B /* AppIcon29x29.png */; };
 		A35F9D011B3AA9E800CFB62B /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A35F9CF81B3AA9E800CFB62B /* AppIcon29x29@2x.png */; };
 		A35F9D021B3AA9E800CFB62B /* AppIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = A35F9CF91B3AA9E800CFB62B /* AppIcon57x57.png */; };
@@ -543,6 +543,9 @@
 		7997BC851E40BAD40050E976 /* tut_iphone5_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tut_iphone5_01.png; sourceTree = "<group>"; };
 		7997BC861E40BAD40050E976 /* tut_iphone5_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tut_iphone5_02.png; sourceTree = "<group>"; };
 		7997BC871E40BAD40050E976 /* tut_iphone5_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tut_iphone5_03.png; sourceTree = "<group>"; };
+		79A692701E71F5BD002BD031 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		79A692711E71F5BD002BD031 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		79A692721E71F5BD002BD031 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		79E085DC1E40B126006FE5A9 /* NotificationBackgroundError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotificationBackgroundError.png; sourceTree = "<group>"; };
 		79E085DD1E40B126006FE5A9 /* NotificationBackgroundError@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NotificationBackgroundError@2x.png"; sourceTree = "<group>"; };
 		79E085DE1E40B126006FE5A9 /* NotificationBackgroundErrorIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotificationBackgroundErrorIcon.png; sourceTree = "<group>"; };
@@ -634,9 +637,6 @@
 		A344D6061B3DBE8D00E05593 /* AGuessCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGuessCell.m; path = GuessCell/AGuessCell.m; sourceTree = "<group>"; };
 		A344D6081B3DBEC000E05593 /* AGuess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGuess.h; sourceTree = "<group>"; };
 		A344D6091B3DBEC000E05593 /* AGuess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGuess.m; sourceTree = "<group>"; };
-		A35F9CDD1B3AA9DB00CFB62B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		A35F9CDE1B3AA9DB00CFB62B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		A35F9CDF1B3AA9DB00CFB62B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A35F9CF71B3AA9E800CFB62B /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
 		A35F9CF81B3AA9E800CFB62B /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
 		A35F9CF91B3AA9E800CFB62B /* AppIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon57x57.png; sourceTree = "<group>"; };
@@ -1423,6 +1423,7 @@
 		2C6D275A1896BACA00C459CB /* Alibi-images */ = {
 			isa = PBXGroup;
 			children = (
+				79A6926F1E71F5BD002BD031 /* Launch Screens */,
 				7997BC831E40BAD40050E976 /* tutorial */,
 				2C6D275B1896BACA00C459CB /* buttons */,
 				2C6D27691896BACA00C459CB /* icons */,
@@ -1432,9 +1433,6 @@
 				2C6D278E1896BACA00C459CB /* tabbar */,
 				2C6D27991896BACA00C459CB /* temp */,
 				2C6D279B1896BACA00C459CB /* welcome */,
-				A35F9CDD1B3AA9DB00CFB62B /* Default-568h@2x.png */,
-				A35F9CDE1B3AA9DB00CFB62B /* Default.png */,
-				A35F9CDF1B3AA9DB00CFB62B /* Default@2x.png */,
 			);
 			path = "Alibi-images";
 			sourceTree = "<group>";
@@ -1727,6 +1725,16 @@
 				7997BC871E40BAD40050E976 /* tut_iphone5_03.png */,
 			);
 			path = iphone5;
+			sourceTree = "<group>";
+		};
+		79A6926F1E71F5BD002BD031 /* Launch Screens */ = {
+			isa = PBXGroup;
+			children = (
+				79A692701E71F5BD002BD031 /* Default-568h@2x.png */,
+				79A692711E71F5BD002BD031 /* Default.png */,
+				79A692721E71F5BD002BD031 /* Default@2x.png */,
+			);
+			path = "Launch Screens";
 			sourceTree = "<group>";
 		};
 		79E085DA1E40B126006FE5A9 /* TSMessages */ = {
@@ -2078,6 +2086,7 @@
 				ORGANIZATIONNAME = "Goran Vuksic";
 				TargetAttributes = {
 					2CCE1A9417ECD32B00680126 = {
+						DevelopmentTeam = U2ZSR9W9NZ;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -2138,12 +2147,12 @@
 				A35F9D481B3AAA0400CFB62B /* tabbar-popular@2x.png in Resources */,
 				A31686EA1B9E815900EC13A0 /* hot@3x.png in Resources */,
 				A35F9D431B3AAA0400CFB62B /* tabbar-nearby.png in Resources */,
-				A35F9CE01B3AA9DB00CFB62B /* Default-568h@2x.png in Resources */,
 				7997BC811E40B7440050E976 /* profile@2x.png in Resources */,
 				A31292771B8DC89E00682C38 /* twit@3x.png in Resources */,
 				A35F9D261B3AA9F500CFB62B /* nav-btn-reload@2x.png in Resources */,
 				A35F9D081B3AA9E800CFB62B /* iTunesArtwork@2x.png in Resources */,
 				A38DCE071B3BB68E0064AB73 /* bloom.caf in Resources */,
+				79A692741E71F5BD002BD031 /* Default.png in Resources */,
 				A3F7D7A71B44361800EC40DC /* next@2x.png in Resources */,
 				A3F7D7931B43D52400EC40DC /* wrong01@3x.png in Resources */,
 				A35F9D241B3AA9F500CFB62B /* nav-btn-edit@2x.png in Resources */,
@@ -2206,7 +2215,6 @@
 				A312926B1B8DC89E00682C38 /* myclub@3x.png in Resources */,
 				A35F9D1D1B3AA9F500CFB62B /* nav-back64.png in Resources */,
 				2C6D27B51896BACA00C459CB /* MNMPullToRefreshIcon.png in Resources */,
-				A35F9CE21B3AA9DB00CFB62B /* Default@2x.png in Resources */,
 				A3F7D7971B43EAF900EC40DC /* o@3x.png in Resources */,
 				A35F9D4B1B3AAA0400CFB62B /* tabbar-timeline.png in Resources */,
 				A31686F61B9E815900EC13A0 /* option_arrow@3x.png in Resources */,
@@ -2252,7 +2260,6 @@
 				79E085F71E40B126006FE5A9 /* NotificationBackgroundError.png in Resources */,
 				2C6D27C71896BACA00C459CB /* Images.xcassets in Resources */,
 				A31686EB1B9E815900EC13A0 /* local_on@2x.png in Resources */,
-				A35F9CE11B3AA9DB00CFB62B /* Default.png in Resources */,
 				A365D7E91B3D09CA00A8B2D7 /* btn-unfollow@2x.png in Resources */,
 				2C6D27DE1896BACA00C459CB /* AUserCell.xib in Resources */,
 				A31292841B8E1FF900682C38 /* bouncer@2x.png in Resources */,
@@ -2298,6 +2305,7 @@
 				A35F9D011B3AA9E800CFB62B /* AppIcon29x29@2x.png in Resources */,
 				2C6D27FD1896BACA00C459CB /* AWelcomeViewController.xib in Resources */,
 				A31686EE1B9E815900EC13A0 /* local@3x.png in Resources */,
+				79A692731E71F5BD002BD031 /* Default-568h@2x.png in Resources */,
 				2C6D27F81896BACA00C459CB /* ASearchViewController.xib in Resources */,
 				79E086011E40B127006FE5A9 /* NotificationBackgroundWarning.png in Resources */,
 				7997BC821E40B7440050E976 /* profile@3x.png in Resources */,
@@ -2307,6 +2315,7 @@
 				A35F9D331B3AA9FD00CFB62B /* avatar-overlay.png in Resources */,
 				A35F9D1F1B3AA9F500CFB62B /* nav-btn-back.png in Resources */,
 				A35F9D0C1B3AA9EF00CFB62B /* map-pin@2x.png in Resources */,
+				79A692751E71F5BD002BD031 /* Default@2x.png in Resources */,
 				A31292671B8DC89E00682C38 /* featured@3x.png in Resources */,
 				A35F9D321B3AA9FD00CFB62B /* avatar-empty@2x.png in Resources */,
 				2C6D27C61896BACA00C459CB /* InfoPlist.strings in Resources */,
@@ -2571,9 +2580,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = Alibi/Alibi.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: ELIEZER KAMIONSKI (UU2EUTXVH7)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ELIEZER KAMIONSKI (UU2EUTXVH7)";
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Alibi Chat, Inc. (U2ZSR9W9NZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Alibi Chat, Inc. (U2ZSR9W9NZ)";
+				DEVELOPMENT_TEAM = U2ZSR9W9NZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Alibi/Alibi-Prefix.pch";
 				INFOPLIST_FILE = "Alibi/Alibi-Info.plist";
@@ -2585,8 +2594,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alibichat;
 				PRODUCT_NAME = Alibi;
-				PROVISIONING_PROFILE = "0582b1de-3443-4d06-b3ba-f6a1fd68d1b1";
-				PROVISIONING_PROFILE_SPECIFIER = "AlibiChat for Development";
+				PROVISIONING_PROFILE = "2594381f-0ec9-4c5b-8b49-bdf0b1332e3f";
+				PROVISIONING_PROFILE_SPECIFIER = "AlibiChat for App Store";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
@@ -2599,9 +2608,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = Alibi/Alibi.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: ELIEZER KAMIONSKI (UU2EUTXVH7)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ELIEZER KAMIONSKI (UU2EUTXVH7)";
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Alibi Chat, Inc. (U2ZSR9W9NZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Alibi Chat, Inc. (U2ZSR9W9NZ)";
+				DEVELOPMENT_TEAM = U2ZSR9W9NZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Alibi/Alibi-Prefix.pch";
 				INFOPLIST_FILE = "Alibi/Alibi-Info.plist";
@@ -2612,9 +2621,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alibichat;
 				PRODUCT_NAME = Alibi;
-				PROVISIONING_PROFILE = "0582b1de-3443-4d06-b3ba-f6a1fd68d1b1";
-				"PROVISIONING_PROFILE[sdk=*]" = "0582b1de-3443-4d06-b3ba-f6a1fd68d1b1";
-				PROVISIONING_PROFILE_SPECIFIER = "AlibiChat for Development";
+				PROVISIONING_PROFILE = "2594381f-0ec9-4c5b-8b49-bdf0b1332e3f";
+				"PROVISIONING_PROFILE[sdk=*]" = "2594381f-0ec9-4c5b-8b49-bdf0b1332e3f";
+				PROVISIONING_PROFILE_SPECIFIER = "AlibiChat for App Store";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
